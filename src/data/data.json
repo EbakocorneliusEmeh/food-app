@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Burger",
+    "description": "Tasty beef burger with cheese and lettuce.",
+    "descriptionLong": "This juicy grilled beef burger is made with seasoned ground beef, melted cheese, and crispy lettuce on a toasted bun.",
+    "calories": 500,
+    "price": 8,
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Pizza",
+    "description": "Cheesy pepperoni pizza with fresh herbs.",
+    "descriptionLong": "Classic pizza loaded with mozzarella, pepperoni, and tomato-herb sauce on a crispy crust.",
+    "calories": 700,
+    "price": 12,
+    "image": "https://images.unsplash.com/photo-1601924582975-7fbb0ca8f7b9?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Salad",
+    "description": "Healthy fresh salad with tomatoes and cucumbers.",
+    "descriptionLong": "A refreshing mix of lettuce, cucumbers, cherry tomatoes, and vinaigrette.",
+    "calories": 250,
+    "price": 6,
+    "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Jollof Rice",
+    "description": "West African spicy rice with vegetables.",
+    "descriptionLong": "Tomato-based rice dish cooked with peppers, onions, and spices, served with chicken.",
+    "calories": 650,
+    "price": 10,
+    "image": "https://images.unsplash.com/photo-1625948976364-7b3a0781bfe7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Fufu and Egusi Soup",
+    "description": "Traditional Nigerian fufu served with melon seed soup.",
+    "descriptionLong": "Soft fufu paired with rich egusi soup made with ground melon seeds, spinach, and meats.",
+    "calories": 800,
+    "price": 14,
+    "image": "https://images.unsplash.com/photo-1671211889450-d87e8e42ef1d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Suya Skewers",
+    "description": "Grilled spicy beef skewers from West Africa.",
+    "descriptionLong": "Tender beef marinated in spices and roasted over open flame, served with onions.",
+    "calories": 550,
+    "price": 9,
+    "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Injera with Stew",
+    "description": "Ethiopian injera flatbread with spicy lentil stew.",
+    "descriptionLong": "Sourdough flatbread served with lentils simmered in berbere spice blend.",
+    "calories": 500,
+    "price": 11,
+    "image": "https://images.unsplash.com/photo-1625948969485-72d91e0a6b4f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Bobotie",
+    "description": "South African curried meatloaf with egg topping.",
+    "descriptionLong": "Spiced minced beef baked with an egg custard topping, served with yellow rice.",
+    "calories": 700,
+    "price": 13,
+    "image": "https://images.unsplash.com/photo-1601050690401-b2d55e8acfa4?auto=format&fit=crop&w=600&q=80"
+  }
+]

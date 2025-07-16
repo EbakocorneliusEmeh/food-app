@@ -1,25 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useFood } from '../context/FoodContext';
-import '../styles/landing.css';
+import './LandingPage.css';
 
 const LandingPage = () => {
   const { foods } = useFood();
+  const navigate = useNavigate();
+
+  if (foods.length === 0) return <p>Loading food items...</p>;
 
   return (
-    <div className="landing">
-      <h1>Our Foods</h1>
-      <div className="food-list">
-        {foods.map(food => (
-          <div key={food.id} className="food-card">
-            <h3>{food.name}</h3>
-            <p>{food.description}</p>
-            <p>Calories: {food.calories}</p>
-            <p>Price: ${food.price}</p>
-            <Link to={`/product/${food.id}`}>View Details</Link>
-          </div>
-        ))}
-      </div>
+    <div className="food-list">
+      {foods.map(food => (
+        <div
+          className="food-card"
+          key={food.id}
+          onClick={() => navigate(`/product/${food.id}`)}
+          style={{ cursor: 'pointer' }}
+        >
+          <img src={food.image} alt={food.name} className="food-image" />
+          <h3>{food.name}</h3>
+          <p>{food.description}</p>
+          <p><strong>Price:</strong> ${food.price}</p>
+        </div>
+      ))}
     </div>
   );
 };

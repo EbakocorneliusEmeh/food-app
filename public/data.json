@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Burger",
+    "description": "Tasty beef burger with cheese and lettuce.",
+    "descriptionLong": "This juicy grilled beef burger is made with seasoned ground beef...",
+    "calories": 500,
+    "price": 8,
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Pizza",
+    "description": "Cheesy pepperoni pizza with fresh herbs.",
+    "descriptionLong": "Our classic pizza is loaded with mozzarella...",
+    "calories": 700,
+    "price": 12,
+    "image": "https://images.unsplash.com/photo-1601924582975-7fbb0ca8f7b9?auto=format&fit=crop&w=600&q=80"
+  }
+  // Add more items...
+]
